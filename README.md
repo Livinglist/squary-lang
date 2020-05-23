@@ -23,6 +23,23 @@ or
 
 ### Syntax
 
+Operators:
+
+| Operator | Info |
+| ------------- | ------------- |
+|  + | add  |
+|  - | subtract  |
+|  * | multiply  |
+|  / | divide  |
+|  = | assign  |
+|  == | equal to  |
+|  < | less than  |
+|  > | greater than  |
+|  <= | less or equal to  |
+|  >= | greater or equal to  |
+|  or | or  |
+|  and | and  |
+
 Declare a variable:
 
 ```kotlin
