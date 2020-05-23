@@ -71,7 +71,7 @@ Class:
 
 ```d
 class Person[
-  init[name][
+  create[name][
     this.name = name;
   ]
   
@@ -85,7 +85,7 @@ class Person[
 ]
 
 class Employee < Person[
-  init[name,id][
+  create[name,id][
     this.name = name;
     this.id = id;
   ]
