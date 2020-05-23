@@ -126,7 +126,7 @@ void initVM() {
 //> null-init-string
   vm.initString = NULL;
 //< null-init-string
-  vm.initString = copyString("init", 4);
+  vm.initString = copyString("create", 6);
 //< Methods and Initializers init-init-string
 //> Calls and Functions define-native-clock
 

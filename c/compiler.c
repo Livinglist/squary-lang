@@ -1111,8 +1111,8 @@ static void method() {
   FunctionType type = TYPE_METHOD;
 //< method-type
 //> initializer-name
-  if (parser.previous.length == 4 &&
-      memcmp(parser.previous.start, "init", 4) == 0) {
+  if (parser.previous.length == 6 &&
+      memcmp(parser.previous.start, "create", 6) == 0) {
     type = TYPE_INITIALIZER;
   }
   
