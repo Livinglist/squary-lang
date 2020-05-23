@@ -25,7 +25,7 @@ or
 
 Declare a variable:
 
-```
+```kotlin
 var num = 123;
 var anotherNum = 3.14;
 var myStr = 'Hello World';
@@ -34,7 +34,7 @@ var myBool = true;
 
 Declare and call a function:
 
-```
+```javascript
 fun add[a,b][
   return a + b;
 ]
@@ -46,7 +46,7 @@ print result; //Prints 3
 
 Control flow:
 
-```
+```c
 //Prints always true
 if[0 < 1][
   print 'always true';
@@ -69,7 +69,7 @@ while[true][
 
 Class:
 
-```
+```d
 class Person[
   init[name][
     this.name = name;
