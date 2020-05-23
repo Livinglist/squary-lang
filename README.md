@@ -84,11 +84,6 @@ class Person[
   ]
 ]
 
-var me = Person['George'];
-me.name = 'Tom';
-me.changeName['Jerry'];
-me.printName[]; //Prints Jerry
-
 class Employee < Person[
   init[name,id][
     this.name = name;
@@ -104,6 +99,11 @@ class Employee < Person[
     this.id = id;
   ]
 ]
+
+var me = Person['George'];
+me.name = 'Tom';
+me.changeName['Jerry'];
+me.printName[]; //Prints Jerry
 
 var employee = Employee['George', 123456];
 employee.name = 'Tom';
