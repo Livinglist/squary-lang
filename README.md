@@ -32,6 +32,7 @@ Operators:
 |  * | multiply  |
 |  / | divide  |
 |  = | assign  |
+|  != | not equal to | 
 |  == | equal to  |
 |  < | less than  |
 |  > | greater than  |
